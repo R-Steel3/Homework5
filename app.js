@@ -1,12 +1,7 @@
-var d = new Date(2020, 15, 12)
-var day = dayjs(d)
+var d = new Date();
+document.getElementById("currentDay").innerHTML = d;
 
-console.log(dayjs)
-
-
-
-
-
-
-
-
+.$("button").click(function (e) { 
+    e.preventDefault();
+    
+});
